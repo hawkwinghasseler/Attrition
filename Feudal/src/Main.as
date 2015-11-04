@@ -9,15 +9,16 @@ package {
 	public class Main extends Sprite {
 		
 		public function Main() {
-			if (stage)
+			if (stage) {
 				init();
-			else
+			} else {
 				addEventListener(Event.ADDED_TO_STAGE, init);
+			}
 		}
 		
 		private function init(e:Event = null):void {
 			removeEventListener(Event.ADDED_TO_STAGE, init);
-			// entry point
+			stage.addChild(new human());
 		}
 	
 	}
