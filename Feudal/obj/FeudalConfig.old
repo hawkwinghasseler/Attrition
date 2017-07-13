@@ -16,7 +16,7 @@
     </define>
     <define append="true">
       <name>CONFIG::timeStamp</name>
-      <value>'11/4/2015'</value>
+      <value>'8/12/2016'</value>
     </define>
     <define append="true">
       <name>CONFIG::air</name>
@@ -41,10 +41,10 @@
     </library-path>
   </compiler>
   <file-specs>
-    <path-element>C:\Code\Flash\Feudal\trunk\Feudal\src\FixedDragging.as</path-element>
+    <path-element>C:\Code\Flash\Feudal\trunk\Feudal\src\tempDebug.as</path-element>
   </file-specs>
   <default-background-color>#FFFFFF</default-background-color>
-  <default-frame-rate>30</default-frame-rate>
+  <default-frame-rate>60</default-frame-rate>
   <default-size>
     <width>800</width>
     <height>600</height>
